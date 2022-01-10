@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import { socialLinks } from "../../constants/constants";
 
 import {
 	Container,
@@ -41,22 +42,13 @@ const Header = () => (
 			</li>
 		</Div2>
 		<Div3>
-			<SocialIcons
-				href="https://github.com/syedumairnaeem07"
-				target="_blank"
-			>
+			<SocialIcons href={socialLinks["github"]} target="_blank">
 				<AiFillGithub size="3rem" />
 			</SocialIcons>
-			<SocialIcons
-				href="https://www.linkedin.com/in/syedumairnaeem07/"
-				target="_blank"
-			>
+			<SocialIcons href={socialLinks["linkedIn"]} target="_blank">
 				<AiFillLinkedin size="3rem" />
 			</SocialIcons>
-			<SocialIcons
-				href="https://www.instagram.com/S_Umair07/"
-				target="_blank"
-			>
+			<SocialIcons href={socialLinks["instagram"]} target="_blank">
 				<AiFillInstagram size="3rem" />
 			</SocialIcons>
 		</Div3>

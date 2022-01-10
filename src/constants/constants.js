@@ -48,3 +48,20 @@ export const TimeLineData = [
 	{ year: 2020, text: "Shared my projects with the world" },
 	{ year: 2021, text: "Started my own platform" },
 ];
+
+export const achievements = [
+	{ number: 10, text: "Projects Completed" },
+	{ number: 3, text: "Ongoing Projects" },
+	{ number: 2, text: "Clients" },
+];
+
+export const contactInfo = {
+	mobile: "+92-331-5486997",
+	email: "sumairn.1997@gmail.com",
+};
+
+export const socialLinks = {
+	github: "https://github.com/syedumairnaeem07",
+	linkedIn: "https://www.linkedin.com/in/syedumairnaeem07/",
+	instagram: "https://www.instagram.com/S_Umair07/",
+};
