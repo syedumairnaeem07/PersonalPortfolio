@@ -65,3 +65,5 @@ export const socialLinks = {
 	linkedIn: "https://www.linkedin.com/in/syedumairnaeem07/",
 	instagram: "https://www.instagram.com/S_Umair07/",
 };
+
+export const pic = "/images/picPortfolio.png"
